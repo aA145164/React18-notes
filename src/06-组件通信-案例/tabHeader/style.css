@@ -1,0 +1,16 @@
+.tab-head {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  text-align: center;
+}
+
+.tab-head .item {
+  flex: 1
+}
+
+.tab-head .item.avtive .text {
+  color: red;
+  border-bottom: 3px solid red;
+  padding: 3px;
+}
